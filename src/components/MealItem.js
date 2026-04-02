@@ -1,3 +1,5 @@
+import Button from './UI/Button';
+
 const MealItem = (props) => {
   return (
     <li className="meal-item">
