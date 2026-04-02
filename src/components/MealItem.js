@@ -16,4 +16,4 @@ const MealItem = (props) => {
   );
 };
 
-export default MealItemexport default MealItem;
+export default MealItem;
