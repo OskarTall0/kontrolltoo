@@ -1,7 +1,11 @@
-const App = () => {
- return (
+import Header from './components/Header';
+import Meals from './components/Meals';
+
+function App() {
+  return (
     <>
-     <h1>Food Order App</h1>
+      <Header />
+      <Meals />
     </>
   );
 }
