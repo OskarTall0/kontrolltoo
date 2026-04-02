@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/meals", async (req, res) => {
-  const meals = "[]" // data should be read from file
+  const meals = await fs.readFile("./data/meals.json", "utf8");
   res.json(JSON.parse(meals));
 });
 
